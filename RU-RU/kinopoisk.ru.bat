@@ -1,11 +1,17 @@
-﻿route add 5.255.230.0 MASK 255.255.255.0 0.0.0.0
-route add 5.255.255.0 MASK 255.255.255.0 0.0.0.0
-route add 5.45.200.0 MASK 255.255.255.0 0.0.0.0
-route add 77.88.21.0 mask 255.255.255.0 0.0.0.0
-route add 87.250.247.0 MASK 255.255.255.0 0.0.0.0
-route add 87.250.250.0 MASK 255.255.255.0 0.0.0.0
-route add 87.250.251.0 MASK 255.255.255.0 0.0.0.0
-route add 87.250.254.0 MASK 255.255.255.0 0.0.0.0
-route add 93.158.134.0 MASK 255.255.255.0 0.0.0.0
-route add 178.154.131.0 MASK 255.255.255.0 0.0.0.0
-route add 213.180.199.0 mask 255.255.255.0 0.0.0.0
+route add 5.45.192.0 MASK 255.255.224.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 5.255.192.0 MASK 255.255.192.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 77.88.0.0 MASK 255.255.192.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 84.252.128.0 MASK 255.255.192.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 87.250.224.0 MASK 255.255.224.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 93.158.128.0 MASK 255.255.192.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 95.108.128.0 MASK 255.255.128.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 130.193.32.0 MASK 255.255.224.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 141.8.128.0 MASK 255.255.248.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 158.160.0.0 MASK 255.255.0.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 178.154.128.0 MASK 255.255.128.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 213.180.192.0 MASK 255.255.224.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 37.9.117.0 MASK 255.255.255.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 45.57.90.0 MASK 255.255.255.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 52.211.238.0 MASK 255.255.255.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 52.215.78.0 MASK 255.255.255.0 0.0.0.0 :: rem Kinopoisk / Yandex
+route add 87.248.119.0 MASK 255.255.255.0 0.0.0.0 :: rem Kinopoisk / Yandex
